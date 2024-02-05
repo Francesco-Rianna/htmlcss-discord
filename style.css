@@ -25,6 +25,13 @@
     padding-bottom: 0%;
 }
 
+.flex-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
 /* section>div {
     border: 1px dashed black;
 } */
@@ -67,6 +74,8 @@
     min-height: 400px;
     background-color: transparent;
     color: white;
+
+
 
 }
 
@@ -121,6 +130,8 @@
     background-color: #ffb6c1;
     border: 1px dashed black;
 }
+
+
 
 
 
@@ -179,6 +190,23 @@
 .box>* {
     text-align: center;
 }
+
+.btn {
+    border-radius: 20px;
+    border: transparent;
+    padding: 15px;
+    font-size: 15px;
+
+
+}
+
+.black {
+    background-color: #23272a;
+    color: white;
+    margin-left: 30px;
+
+}
+
 
 
 
