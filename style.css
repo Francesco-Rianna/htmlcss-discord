@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #23272a;
+}
+
 .section-1,
 .section-2 {
     display: flex;
@@ -82,20 +90,32 @@
 .box-70 {
     width: 70%;
     min-height: 490px;
-    background-color: #1e90ff;
+
+
 }
 
 .box-30 {
     width: 30%;
     min-height: 490px;
-    background-color: #ffc0cb;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.box-30 p {
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #7e8082;
 
 }
+
+
 
 .box-100 {
     width: 100%;
     min-height: 890px;
-    background-color: #228b22;
+    padding: 20px 10px;
+
 
 }
 
@@ -194,8 +214,9 @@
 .btn {
     border-radius: 20px;
     border: transparent;
-    padding: 15px;
+    height: 30px;
     font-size: 15px;
+    min-width: 150px;
 
 
 }
@@ -220,8 +241,53 @@
     MAIN
 -------------------*/
 .bg-sm {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6
 }
+
+.img-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* -----------------------
+fourth  block 
+--------------------------*/
+
+.box-100 h2 {
+    li
+}
+
+.box-100 img {
+    width: 100%;
+}
+
+.box-100 p {
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.box-100 h3 {
+    text-align: center;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+.box-100 .btn {
+    background-color: #8ea1e1;
+    text-align: center;
+    color: white;
+}
+
+.box-100 div {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+
+
 
 /*-------------------
     footer
