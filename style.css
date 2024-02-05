@@ -122,13 +122,14 @@ h2 {
 .box-20 {
     width: 20%;
     min-height: 570px;
-    background-color: #f08080;
+    margin-top: -8px;
+
 }
 
 .box-80 {
     width: 80%;
     min-height: 570px;
-    background-color: #20b2aa;
+
     display: flex;
 }
 
@@ -303,8 +304,38 @@ fourth  block
 
 }
 
-.sky {
-    background-color: #20b2aa;
-    border: 1px dashed white;
 
+
+h4 {
+    color: #5a6ba6;
+}
+
+.box-20 h4 {
+    font-size: 24px;
+
+}
+
+.box-20 div {
+    padding-top: 40px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.box-25 ul {
+    padding-top: 10px;
+    color: white;
+    line-height: 2;
+    list-style: none;
+    font-size: 10px;
+
+}
+
+.box-20 i {
+    color: white;
+    font-size: 10px;
+}
+
+.box-20 a {
+    text-decoration: none;
 }
