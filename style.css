@@ -19,18 +19,16 @@
 
 }
 
-.special {
-    padding: 10px;
 
-}
 
 .footer {
     padding-bottom: 0%;
 }
 
-section>div {
+/* section>div {
     border: 1px dashed black;
-}
+} */
+
 
 /*-------------------
     GRID LAYOUT
@@ -42,7 +40,7 @@ section>div {
 }
 
 .row {
-    background-color: #daa520;
+    background-color: transparent;
     display: flex;
     justify-content: center;
 
@@ -54,8 +52,9 @@ section>div {
 .row15 {
     width: 15%;
     justify-content: flex-start;
-
 }
+
+
 
 .row70 {
     width: 70%;
@@ -66,7 +65,9 @@ section>div {
 .box {
     width: 80%;
     min-height: 400px;
-    background-color: #ee82ee;
+    background-color: transparent;
+    color: white;
+
 }
 
 .box-70 {
@@ -127,12 +128,14 @@ section>div {
     HEADER
 -------------------*/
 .bg-sh1 {
-    background-color: #add8e6;
+    background-color: #3161e0;
 }
 
 
 .bg-sh2 {
-    background-color: #00008b;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .row li {
@@ -144,8 +147,45 @@ section>div {
 
 .row a {
     text-decoration: none;
+    color: white;
 
 }
+
+
+
+.special button {
+    background-color: white;
+    border-radius: 20px;
+    width: 63px;
+    height: 35px;
+    color: black;
+    border: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500px;
+
+
+}
+
+.box>h1 {
+    font-size: 50px;
+}
+
+.box>p {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.box>* {
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 /*-------------------
